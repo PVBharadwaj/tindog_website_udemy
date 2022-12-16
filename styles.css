@@ -1,0 +1,184 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+  }
+
+
+.title-image {
+    width: 25%;
+    height: 90%;
+    transform: rotate(25deg);
+    top: 30%;
+    right: 15%;
+    position: absolute;
+  }
+
+
+#apple{
+    color: white;
+}
+
+#play{
+    color: white;
+}
+
+nav{
+    padding-bottom: 2rem;
+}
+
+/* features section */
+
+#features{
+    text-align: center;
+}
+
+.bi {
+    color: #ef8172;
+    width: 20%;
+    height: 30%;
+    margin-bottom: 1rem;
+  }
+.title-head{
+    margin-left: 1rem;
+    text-align: left;
+}  
+
+/* .feature-image{
+    position: relative;
+    width: 6rem;
+    height: 6rem;
+}   */
+
+  
+.bi:hover {
+    color: #ff4c68;
+  }
+
+.feature-box{
+    padding: 5%;
+  }
+
+/* testimonial section */
+
+.colored-section{
+    background-color: #ef8172;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-family: "Montserrat-Black";
+    line-height: 5rem;
+}
+
+.carousel-inner{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+#press{
+    background-color: #ef8172;
+}
+
+.press-img {
+    height: 15%;
+    width: 15%;
+    margin: 20px;
+} 
+
+.press-div{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#pricing{
+    text-align: center;
+}
+
+.pricing-head{
+    margin: 5% auto 3% auto;
+    font-family: "Montserrat-Black";
+    line-height: 3rem;
+}
+
+.card{
+    margin: 10%;
+}
+
+button{
+    margin: 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    width: 100%;
+    height: 5%;
+    padding: 5% 10% 5% 10%;
+}
+
+.cta-div{
+    text-align: center;
+}
+
+.cta-text{
+    font-family:  "Montserrat-Black";
+    color: white;
+    font-size: 4rem;
+}
+
+#footer{
+    text-align: center;
+}
+
+.footer-img{
+    color: black;
+    margin: 3%;
+}
+
+.footer-div{
+    margin: 6%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
+
